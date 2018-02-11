@@ -21,6 +21,9 @@ public class ModItems {
 	public static ItemArmor copperLeggings = new ItemArmor(TutorialMod.copperArmorMaterial, EntityEquipmentSlot.LEGS, "copper_leggings");
 	public static ItemArmor copperBoots = new ItemArmor(TutorialMod.copperArmorMaterial, EntityEquipmentSlot.FEET, "copper_boots");
 
+	//New Items
+	public static ItemWooshStick woosh_stick = new ItemWooshStick();
+
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.registerAll(
 				ingotCopper,
@@ -34,7 +37,8 @@ public class ModItems {
 				copperHelmet,
 				copperChestplate,
 				copperLeggings,
-				copperBoots
+				copperBoots,
+				woosh_stick
 		);
 	}
 
@@ -51,6 +55,7 @@ public class ModItems {
 		copperChestplate.registerItemModel();
 		copperLeggings.registerItemModel();
 		copperBoots.registerItemModel();
+		woosh_stick.registerItemModel();
 	}
 
 }
