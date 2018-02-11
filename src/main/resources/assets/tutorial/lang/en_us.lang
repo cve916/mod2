@@ -11,6 +11,7 @@ item.copper_helmet.name=Copper Helmet
 item.copper_chestplate.name=Copper Chestplate
 item.copper_leggings.name=Copper Leggings
 item.copper_boots.name=Copper Boots
+item.woosh_stick.name=Woosh Stick
 
 # Blocks
 tile.ore_copper.name=Copper Ore
